@@ -1,0 +1,325 @@
+body{
+    /* background-color: aqua; */
+    width: 100vw;
+    margin: 0;
+    /* padding-inline: 16.5%; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* start of nav bar styling */
+nav{
+    /* background-color: blueviolet; */
+    /* position: absolute; */
+    /* left: 16.5%; */
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    /* margin-inline: 16.5%; */
+}
+
+#mainLogo{
+    width: 300px;
+    height: auto;
+}
+
+#navOptions{
+    display: flex;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ABABAB;
+}
+.navOptions:hover{
+    color: #00B39B;
+    cursor: pointer;
+}
+/* end of nav bar styling */
+
+/* start of body styling */
+main{
+    /* position: absolute; */
+    margin-top: 90px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    width: 35px;
+    height: auto;
+}
+
+.Headers{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    color: #00B39B;
+    line-height: 32px;
+}
+
+#note{
+    /* background-color: aquamarine; */
+    width: 63%;
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    /* padding: 0px; */
+    text-wrap: balance;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: #747474;
+}
+#categoryDiv{
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+    margin-inline: 12%;
+}
+
+#forPatients{
+    background-color: #00CCB1;
+    border-radius: 20px;
+    padding: 45px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-wrap: balance;
+    line-height: 25px;
+    color: white;
+}
+
+#forDoctors{
+    background-color: #3D83DF;
+    border-radius: 20px;
+    padding: 45px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-wrap: balance;
+    line-height: 25px;
+    color: white;
+}
+
+#forClinics{
+    background-color: #1B2734;
+    border-radius: 20px;
+    padding: 45px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-wrap: balance;
+    line-height: 25px;
+    color: white;
+}
+
+.categoryHeader{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.selectCountry{
+    margin-top: 90px;
+}
+.selectCountry select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    background-color: none;
+}
+
+.selectSpecialists{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.selectSpecialists select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+#PNGs{
+    display: flex;
+    gap: 300px;
+    margin-top: 40px;
+}
+
+#PNGs p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.85px;
+    color: #00B39B;
+    line-height: 35px;
+    /* text-wrap: balance; */
+    /* background-color: #1B2734; */
+    width: 210px;
+}
+
+.PNGs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.PNGs div{
+    display: flex;
+    gap: 70px;
+}
+
+.PNGs div img{
+    width: 80px;
+    height: auto;
+}
+.PNGs img{
+    width: 80px;
+    height: auto;
+}
+
+#blueBG{
+    background-color: #D0FAF4;
+    margin-top: 55px;
+    display: flex;
+    padding-inline: 130px;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+.right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.whiteBG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 205px;
+    height: 180px;
+    padding-inline: 10px;
+    padding-block: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: #747474;
+    letter-spacing: 0.85px;
+    text-align: center;
+    line-height: 17px;
+}
+
+.whiteBG img{
+    width: 25px;
+    height: auto;
+}
+
+#subLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-block: 25px;
+}
+#subRight{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#left img{
+    margin-top: 55px;
+}
+#shortNote{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14.5px;
+    color: #747474;
+    letter-spacing: 1px;
+}
+
+#improveMillions{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.grid{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.gridItems{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gridItems:hover{
+    box-shadow: 0 0 10px rgba(87, 87, 87, 0.5);
+}
+
+.gridItems div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14.5px;
+    color: #747474;
+    padding-inline: 22px;
+}
+
+button{
+    background-color: #3D83DF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#closingDIV{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+#closingDIV p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+#closingDIV button{
+    font-size: 12px;
+    font-weight: 700;
+}
